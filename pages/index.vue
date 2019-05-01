@@ -48,7 +48,7 @@
 
         <ul>
           <li>
-            <img src="" alt="Linux icon" />
+            <img src="~/assets/img/icon-linux.png" alt="Linux icon" />
             <h3>Native for linux</h3>
             <p>
               Akira is built in Vala and GTK, no electron shenanigans here, and
@@ -56,7 +56,7 @@
             </p>
           </li>
           <li>
-            <img src="" alt="SVG icon" />
+            <img src="~/assets/img/icon-svg.png" alt="SVG icon" />
             <h3>SVG-Based Canvas</h3>
             <p>
               Akira is built in Vala and GTK, no electron shenanigans here, and
@@ -64,7 +64,7 @@
             </p>
           </li>
           <li>
-            <img src="" alt="Shapes icon" />
+            <img src="~/assets/img/icon-shapes.png" alt="Shapes icon" />
             <h3>Non-Destructive Editing</h3>
             <p>
               Akira is built in Vala and GTK, no electron shenanigans here, and
@@ -72,7 +72,7 @@
             </p>
           </li>
           <li>
-            <img src="" alt="Guides icon" />
+            <img src="~/assets/img/icon-guides.png" alt="Guides icon" />
             <h3>Pixel Precision</h3>
             <p>
               Akira is built in Vala and GTK, no electron shenanigans here, and
@@ -80,7 +80,7 @@
             </p>
           </li>
           <li>
-            <img src="" alt="Git branches icon" />
+            <img src="~/assets/img/icon-branches.png" alt="Git branches icon" />
             <h3>Built-in Version Control</h3>
             <p>
               Akira is built in Vala and GTK, no electron shenanigans here, and
@@ -88,7 +88,7 @@
             </p>
           </li>
           <li>
-            <img src="" alt="Wireframe icon" />
+            <img src="~/assets/img/icon-wireframe.png" alt="Wireframe icon" />
             <h3>Intuitive interface</h3>
             <p>
               Akira is built in Vala and GTK, no electron shenanigans here, and
@@ -114,18 +114,8 @@ export default {
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-  @apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+body {
+  font-family: 'Open Sans', 'sans-serif';
 }
 
 .title {
@@ -141,5 +131,36 @@ export default {
 .subtitle {
   font-size: 16px;
   color: #526488;
+}
+
+h3 {
+  font: bold 18px 'Open Sans Condensed', 'sans-serif';
+}
+
+section {
+  text-align: center;
+}
+
+section .cta {
+  background: linear-gradient(#ffa154, #f37329);
+  border-radius: 4px;
+  color: #fff;
+  display: inline-block;
+  font: bold 18px 'Open Sans';
+  padding: 15px 0 14px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  width: 177px;
+}
+
+header li {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 </style>
