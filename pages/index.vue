@@ -12,9 +12,27 @@
         </ul>
 
         <ul class="social">
-          <li><a href="http://github.com">G</a></li>
-          <li><a href="http://mastadon.com">M</a></li>
-          <li><a href="http://twitter.com">T</a></li>
+          <li>
+            <a href="#"
+              ><img src="~/assets/img/glyph-github.svg" alt="Link to Github" />
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="~/assets/img/glyph-mastadon.svg"
+                alt="Link to Mastadon"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="~/assets/img/glyph-twitter.svg"
+                alt="Link to Twitter"
+              />
+            </a>
+          </li>
         </ul>
       </nav>
 
@@ -38,9 +56,7 @@
 
     <main>
       <section class="container">
-        <h2>
-          Features
-        </h2>
+        <h2>Features</h2>
 
         <p>
           Lorem ipsum sit amet, consectetur adipiscing elit
@@ -99,7 +115,104 @@
 
         <a href="features" class="cta">Learn more</a>
       </section>
+
+      <section class="container team">
+        <h2>Team</h2>
+
+        <p>
+          Akira exists thanks to the contribution of hundreds of developers and
+          designers, but the four guys that started all of this need a bit of a
+          shout out.
+        </p>
+
+        <ul>
+          <li>
+            <img
+              src="~/assets/img/avatar-albertoFanjul.png"
+              alt="Alberto Fanjul photo"
+            />
+            <h3>Alberto Funjul</h3>
+          </li>
+          <li>
+            <img
+              src="~/assets/img/avatar-alessandroCastellani.png"
+              alt="Alessandro Castellani photo"
+            />
+            <h3>Alessandro Castellani</h3>
+          </li>
+          <li>
+            <img
+              src="~/assets/img/avatar-bilalElmoussaoui.png"
+              alt="Bilal Elmoussaoui photo"
+            />
+            <h3>Bilal Elmoussaoui</h3>
+          </li>
+          <li>
+            <img
+              src="~/assets/img/avatar-felipeEscoto.png"
+              alt="Felipe Escoto photo"
+            />
+            <h3>Felipe Escoto</h3>
+          </li>
+        </ul>
+      </section>
+
+      <section class="container">
+        <h2>Support us</h2>
+
+        <p>
+          Akira is a Free and Open Source Project that aims at offering a
+          professional and native Linux alternative to proprietary UX Design
+          apps. Akira is made possible by the work of talented developers, help
+          us to keep this project alive.
+        </p>
+
+        <a href="#" class="cta">Patreon</a>
+        <a href="#" class="cta">Liberapay</a>
+      </section>
     </main>
+
+    <footer>
+      <h2>
+        <Logo />
+        Akira
+      </h2>
+
+      <nav>
+        <ul>
+          <li><a href="features">Features</a></li>
+          <li><a href="team">Team</a></li>
+          <li><a href="roadmap">Roadmap</a></li>
+          <li><a href="changelog">Changelog</a></li>
+        </ul>
+      </nav>
+
+      <p>
+        Akira is a Free and Open Source Software under GPLv3 License, including
+        all its assets, templates and this very own website. Sharing is caring.
+      </p>
+
+      <ul>
+        <li>
+          <a href="#"
+            ><img src="~/assets/img/glyph-github.svg" alt="Link to Github" />
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="~/assets/img/glyph-mastadon.svg"
+              alt="Link to Mastadon"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="~/assets/img/glyph-twitter.svg" alt="Link to Twitter" />
+          </a>
+        </li>
+      </ul>
+    </footer>
   </div>
 </template>
 
@@ -116,16 +229,6 @@ export default {
 <style>
 body {
   font-family: 'Open Sans', 'sans-serif';
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
 }
 
 .subtitle {
@@ -154,13 +257,32 @@ section .cta {
   width: 177px;
 }
 
-header li {
+header {
+  background: #333333;
+  color: #ffffff;
+}
+
+nav li {
   display: inline-block;
+}
+
+nav a {
+  color: #ffffff;
 }
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.team img {
+  border-radius: 50%;
+  width: 196px;
+}
+
+footer {
+  background: #333333;
+  color: #ffffff;
 }
 </style>
