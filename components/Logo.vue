@@ -1,5 +1,5 @@
 <template>
-  <img src="~/assets/img/logo-akira.png" alt="Akira logo" />
+  <img class="logo" src="~/assets/img/logo-akira.png" alt="Akira logo" />
 </template>
 
 <style>
