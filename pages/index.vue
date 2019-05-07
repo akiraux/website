@@ -5,8 +5,8 @@
         <logo />
         <nav>
           <ul>
-            <li><a href="features">Features</a></li>
-            <li><a href="team">Team</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#team">Team</a></li>
             <li><a href="roadmap">Roadmap</a></li>
             <li><a href="changelog">Changelog</a></li>
             <li class="cta"><a href="donate">Donate</a></li>
@@ -14,7 +14,10 @@
 
           <ul class="social">
             <li>
-              <a href="https://github.com/akiraux"
+              <a
+                href="https://github.com/akiraux"
+                target="_blank"
+                title="Akira UX at Github"
                 ><img
                   src="~/assets/img/glyph-github.svg"
                   alt="Link to Github"
@@ -22,7 +25,10 @@
               </a>
             </li>
             <li>
-              <a href="https://fosstodon.org/@akiraux"
+              <a
+                href="https://fosstodon.org/@akiraux"
+                target="_blank"
+                title="Akira UX at Mastadon"
                 ><img
                   src="~/assets/img/glyph-mastadon.svg"
                   alt="Link to Mastadon"
@@ -30,7 +36,10 @@
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/akiraux"
+              <a
+                href="https://twitter.com/akiraux"
+                target="_blank"
+                title="Akira UX at Twitter"
                 ><img
                   src="~/assets/img/glyph-twitter.svg"
                   alt="Link to Twitter"
@@ -83,7 +92,7 @@
     </header>
 
     <main>
-      <section class="features">
+      <section id="features" class="features">
         <h2>Features</h2>
 
         <p>
@@ -147,7 +156,7 @@
         <a href="features" class="cta">Learn more</a>
       </section>
 
-      <section class="team">
+      <section id="team" class="team">
         <h2 class="container mx-auto">Team</h2>
 
         <p>
@@ -190,7 +199,7 @@
         <a href="team" class="cta">Contributors</a>
       </section>
 
-      <section class="support">
+      <section id="support" class="support">
         <h2>Support us</h2>
 
         <p>
@@ -200,8 +209,20 @@
           us to keep this project alive.
         </p>
 
-        <a href="https://www.patreon.com/akiraux/posts" class="cta">Patreon</a>
-        <a href="https://liberapay.com/AkiraUX/" class="cta">Liberapay</a>
+        <a
+          href="https://www.patreon.com/akiraux/posts"
+          class="cta"
+          target="_blank"
+          title="Akira UX at Patreon"
+          >Patreon
+        </a>
+        <a
+          href="https://liberapay.com/AkiraUX/"
+          class="cta"
+          target="_blank"
+          title="Akira UX at Liberapay"
+          >Liberapay
+        </a>
       </section>
     </main>
 
@@ -214,8 +235,8 @@
 
         <nav>
           <ul>
-            <li><a href="features">Features</a></li>
-            <li><a href="team">Team</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#team">Team</a></li>
             <li><a href="roadmap">Roadmap</a></li>
             <li><a href="changelog">Changelog</a></li>
           </ul>
@@ -229,12 +250,18 @@
 
         <ul class="social">
           <li>
-            <a href="https://github.com/akiraux"
+            <a
+              href="https://github.com/akiraux"
+              target="_blank"
+              title="Akira UX at Github"
               ><img src="~/assets/img/glyph-github.svg" alt="Link to Github" />
             </a>
           </li>
           <li>
-            <a href="https://fosstodon.org/@akiraux"
+            <a
+              href="https://fosstodon.org/@akiraux"
+              target="_blank"
+              title="Akira UX at Mastadon"
               ><img
                 src="~/assets/img/glyph-mastadon.svg"
                 alt="Link to Mastadon"
@@ -242,7 +269,10 @@
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/akiraux"
+            <a
+              href="https://twitter.com/akiraux"
+              target="_blank"
+              title="Akira UX at Twitter"
               ><img
                 src="~/assets/img/glyph-twitter.svg"
                 alt="Link to Twitter"
