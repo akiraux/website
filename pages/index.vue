@@ -18,10 +18,8 @@
                 href="https://github.com/akiraux"
                 target="_blank"
                 title="Akira UX at Github"
-                ><img
-                  src="~/assets/img/glyph-github.svg"
-                  alt="Link to Github"
-                />
+              >
+                <img src="~/assets/img/glyph-github.svg" alt="Link to Github" />
               </a>
             </li>
             <li>
@@ -29,7 +27,8 @@
                 href="https://fosstodon.org/@akiraux"
                 target="_blank"
                 title="Akira UX at Mastadon"
-                ><img
+              >
+                <img
                   src="~/assets/img/glyph-mastadon.svg"
                   alt="Link to Mastadon"
                 />
@@ -40,7 +39,8 @@
                 href="https://twitter.com/akiraux"
                 target="_blank"
                 title="Akira UX at Twitter"
-                ><img
+              >
+                <img
                   src="~/assets/img/glyph-twitter.svg"
                   alt="Link to Twitter"
                 />
@@ -67,25 +67,28 @@
 
         <ul class="downloads">
           <li>
-            <a href="#"
-              ><img
+            <a href="#">
+              <img
                 src="~/assets/img/downloads-app.png"
                 alt="Get it on appcenter"
-            /></a>
+              />
+            </a>
           </li>
           <li>
-            <a href="#"
-              ><img
+            <a href="#">
+              <img
                 src="~/assets/img/downloads-flat.png"
                 alt="Download on flathub"
-            /></a>
+              />
+            </a>
           </li>
           <li>
-            <a href="#"
-              ><img
+            <a href="#">
+              <img
                 src="~/assets/img/downloads-snap.png"
                 alt="Download on snapcraft"
-            /></a>
+              />
+            </a>
           </li>
         </ul>
       </div>
@@ -214,14 +217,16 @@
           class="cta"
           target="_blank"
           title="Akira UX at Patreon"
-          >Patreon
+        >
+          Patreon
         </a>
         <a
           href="https://liberapay.com/AkiraUX/"
           class="cta"
           target="_blank"
           title="Akira UX at Liberapay"
-          >Liberapay
+        >
+          Liberapay
         </a>
       </section>
     </main>
@@ -254,7 +259,8 @@
               href="https://github.com/akiraux"
               target="_blank"
               title="Akira UX at Github"
-              ><img src="~/assets/img/glyph-github.svg" alt="Link to Github" />
+            >
+              <img src="~/assets/img/glyph-github.svg" alt="Link to Github" />
             </a>
           </li>
           <li>
@@ -262,7 +268,8 @@
               href="https://fosstodon.org/@akiraux"
               target="_blank"
               title="Akira UX at Mastadon"
-              ><img
+            >
+              <img
                 src="~/assets/img/glyph-mastadon.svg"
                 alt="Link to Mastadon"
               />
@@ -273,10 +280,8 @@
               href="https://twitter.com/akiraux"
               target="_blank"
               title="Akira UX at Twitter"
-              ><img
-                src="~/assets/img/glyph-twitter.svg"
-                alt="Link to Twitter"
-              />
+            >
+              <img src="~/assets/img/glyph-twitter.svg" alt="Link to Twitter" />
             </a>
           </li>
         </ul>
