@@ -1,0 +1,17 @@
+@import "../node_modules/normalize.css/normalize.css";
+
+/* Header */
+
+.site-header {
+    background: rgb(48,48,48);
+    background: linear-gradient(45deg, rgba(48,48,48,1) 0%, rgba(77,77,77,1) 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 1em 3em;
+}
+
+.site-navigation {
+    display: flex;
+    align-items: center;
+}
