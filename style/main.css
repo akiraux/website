@@ -1,26 +1,25 @@
 @import "../node_modules/normalize.css/normalize.css";
+/* I don't know what is this line for but I keep it any ways.
+ * move the header to a separeted file.
+ */
 
 /*
  * GLOBAL
 */
 :root{
-  --primary-color-a: #FCF5CE;
-  --primary-color-b: #FAE6B8;
-  --primary-color-c: #E4CA9D;
-  --primary-color-d: #F8D09F;
-  --primary-color-e: #F0BA91;
+  --primary-color-f: #fffaee;
+  
+  --secondary-color-a: #161f29;
+  --secondary-color-b: #1d2b3b;
+  --secondary-color-c: #394655;
+  --secondary-color-d: #435062;
+  --secondary-color-e: #6b798c;
 
-  --secondary-color-a: #767C9C;
-  --secondary-color-b: #5B6078;
-  --secondary-color-c: #354353;
-  --secondary-color-d: #2F313D;
-  --secondary-color-e: #1D1F26;
-
-  --acent-color-a: #E6B40B;
-  --acent-color-b: #F0A50C;
-  --acent-color-c: #D88515;
-  --acent-color-d: #F06C0C;
-  --acent-color-e: #E6470B;
+  --acent-color-a: #763600;
+  --acent-color-b: #a05900;
+  --acent-color-c: #c87a00;
+  --acent-color-d: #f49e00;
+  --acent-color-e: #fea607;
 }
 
 *{
@@ -37,7 +36,7 @@
   scrollbar-width: thin;
 }
 *:focus-visible{
-    outline: 1px dashed var(--acent-color-a);
+    outline: 1px dashed var(--acent-color-e);
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -52,25 +51,9 @@ h1, h2, h3, h4, h5, h6{
 /*
  * COLORS
 */
-.primary-a-bg{background: var(--primary-color-a);}
-.primary-a-text{color: var(--primary-color-a);}
-.primary-a-fill{fill: var(--primary-color-a);}
-
-.primary-b-bg{background: var(--primary-color-b);}
-.primary-b-text{color: var(--primary-color-b);}
-.primary-b-fill{fill: var(--primary-color-b);}
-
-.primary-c-bg{background: var(--primary-color-c);}
-.primary-c-text{color: var(--primary-color-c);}
-.primary-c-fill{fill: var(--primary-color-c);}
-
-.primary-d-bg{background: var(--primary-color-d);}
-.primary-d-text{color: var(--primary-color-d);}
-.primary-d-fill{fill: var(--primary-color-d);}
-
-.primary-e-bg{background: var(--primary-color-e);}
-.primary-e-text{color: var(--primary-color-e);}
-.primary-e-fill{fill: var(--primary-color-e);}
+.primary-f-bg{background: var(--primary-color-f);}
+.primary-f-text{color: var(--primary-color-f);}
+.primary-f-fill{fill: var(--primary-color-f);}
 
 .secondary-a-bg{background: var(--secondary-color-a);}
 .secondary-a-text{color: var(--secondary-color-a);}
@@ -91,6 +74,11 @@ h1, h2, h3, h4, h5, h6{
 .secondary-e-bg{background: var(--secondary-color-e);}
 .secondary-e-text{color: var(--secondary-color-e);}
 .secondary-e-fill{fill: var(--secondary-color-e);}
+
+.secondary-gradient-bg{
+    background: var(--secondary-color-b);
+    background: linear-gradient(45deg, var(--secondary-color-b), var(--secondary-color-c));
+}
 
 .acent-a-bg{background: var(--acent-color-a);}
 .acent-a-text{color: var(--acent-color-a);}
@@ -120,7 +108,7 @@ h1, h2, h3, h4, h5, h6{
 /* Anchor Links */
 
 .anchor-link:hover, .anchor-link:focus-visible{
-    color: var(--acent-color-a);
+    color: var(--acent-color-e);
     text-decoration-line: underline;
 } 
 
@@ -140,29 +128,11 @@ h1, h2, h3, h4, h5, h6{
 /* Content Wrapper */
 
 .content-wrapper{
-    margin: 3rem;
+    padding: 1rem;
+    max-width: 1500px;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    margin: 0 auto;
 }
 
-/* Header */
-
-.site-header {
-    background: rgb(48,48,48);
-    background: linear-gradient(45deg, rgba(48,48,48,1) 0%, rgba(77,77,77,1) 100%);
-    display: flex;
-    flex-direction: column;
-    padding: 1em 3em;
-}
-
-.site-navigation {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.site-navigation .flex-wrapper{
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-}
-    
+   
