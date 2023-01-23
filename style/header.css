@@ -49,3 +49,7 @@
     height: 200px;
 }
 
+.nav-link:hover, .nav-link:focus-visible{
+    color: var(--acent-color-e);
+    text-decoration-line: underline;
+}

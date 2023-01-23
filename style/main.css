@@ -106,10 +106,13 @@ h1, h2, h3, h4, h5, h6{
 
 
 /* Anchor Links */
-
-.anchor-link:hover, .anchor-link:focus-visible{
-    color: var(--acent-color-e);
+.anchor-link{
+    font-style: italic;
+    padding: 0 1rem;
     text-decoration-line: underline;
+}
+.anchor-link:hover, .anchor-link:focus-visible{
+    color: var(--acent-color-b);
 } 
 
 
@@ -135,4 +138,15 @@ h1, h2, h3, h4, h5, h6{
     margin: 0 auto;
 }
 
-   
+/* Setion Titles */
+.title{
+    font-size: 3rem;
+    margin: 3rem;
+}
+.subtitle{
+    font-size: 1.7rem;
+}
+
+section{
+    text-align: center;
+}
