@@ -76,8 +76,8 @@ h1, h2, h3, h4, h5, h6{
 .secondary-e-fill{fill: var(--secondary-color-e);}
 
 .secondary-gradient-bg{
-    background: var(--secondary-color-b);
-    background: linear-gradient(45deg, var(--secondary-color-b), var(--secondary-color-c));
+    background-color: var(--secondary-color-b);
+    background-image: linear-gradient(45deg, var(--secondary-color-b), var(--secondary-color-c));
 }
 
 .acent-a-bg{background: var(--acent-color-a);}
@@ -140,8 +140,8 @@ h1, h2, h3, h4, h5, h6{
 
 /* Setion Titles */
 .title{
-    font-size: 3rem;
-    margin: 3rem;
+    font-size: 2.7rem;
+    margin: 3rem auto;
 }
 .subtitle{
     font-size: 1.7rem;
