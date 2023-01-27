@@ -1,0 +1,11 @@
+#hero-section{
+    display: grid;
+    gap: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#hero-section .btn{
+    width: min-content;
+    margin: auto; 
+}

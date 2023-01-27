@@ -7,33 +7,177 @@
     <title>Akira - The Linux Design Tool</title>
     <meta name="description" content="Native Linux App for UI and UX Design built in Vala and GTK" />
     <link rel="stylesheet" type="text/css" href="style/main.css" />
+    <link rel="stylesheet" type="text/css" href="style/header.css" />
+    <link rel="stylesheet" type="text/css" href="style/hero-section.css" />
+    <link rel="stylesheet" type="text/css" href="style/features.css" />
+    <link rel="stylesheet" type="text/css" href="style/contributor.css" />
+    <link rel="stylesheet" type="text/css" href="style/footer.css" />
     <link rel="icon" href="assets/favicon.png" />
     <script defer src="js/app.js"></script>
 </head>
-<body>
+<body class="primary-f-bg secondary-a-text">
     <!-- Header -->
-    <header class="site-header">
-        <nav role="navigation" class="site-navigation">
-            <a href="/">
-                <img src="assets/akira-logo.png" alt="Akira logo">
-            </a>
-            <a href="#features">Features</a>
-            <a href="#contributors">Contributors</a>
-            <a href="/">Roadmap</a>
-            <a href="/">Changelog</a>
-            <a href="/">Donate</a>
-        </nav>
+    <div class="secondary-gradient-bg">
+        <header class="site-header primary-f-text content-wrapper">
+            <nav role="navigation" class="site-navigation">
+                <a href="/">
+                    <img src="assets/akira-logo.png" alt="Akira logo">
+                </a>
 
-        <h1 class="site-title">Akira</h1>
-        <p class="site-description">The Linux Design Tool</p>
-    </header>
+                <div class="flex-wrapper">
+                    <a class="nav-link" href="#features">Features</a>
+                    <a class="nav-link" href="#contributors">Contributors</a>
+                    <a class="nav-link" href="/">Roadmap</a>
+                    <a class="nav-link" href="/">Changelog</a>
+                    <a class="btn acent-e-bg secondary-b-text" href="#donate"><b>Donate</b></a>
+                </div>
+            </nav>
+
+            <h1 class="site-title">Akira UX</h1>
+            <p class="site-description">The Linux Design Tool from Developers to developers</p>
+            <img src="assets/akira-mascot-akari-flipped.png" alt="Image of the project's mascot" class="header-mascot-img" />
+        </header>
+    </div>
+
+    <!-- Call to action -->
+    <section id="hero-section" class="content-wrapper">
+        <div>
+            <h3 class="secondary-c-text">Test it Now!</h3>
+            <p>
+                Akira is a native Linux Design application built in Vala and GTK. Akira focuses on offering a modern and fast approach to UI and UX Design, mainly targeting web designers and graphic designers.
+            </p>
+        </div>
+        
+        <img src="assets/akiraApp2.png" alt="Image of the application." width="100%"/>
+
+        <a href="#" class="btn secondary-gradient-bg acent-e-text"><b>Download</b></a>
+    </section>
 
     <!-- Features -->
+    <section id="features" class="content-wrapper">
+        <h2 class="title secondary-b-text">Features</h2>
+
+        <article class="feature-item">
+              <h3 class="subtitle secondary-c-text">Clever</h3>
+
+              <p>
+                  In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+              </p>
+
+              <img src="assets/akiraMascotFlipped.png" alt="Image of the teen mascot" class="" width="100%"/>
+
+              <a href="#" class="anchor-link secondary-d-text">Learn more...</a>
+        </article>
+
+        <article class="feature-item">
+              <h3 class="subtitle secondary-c-text">Light Weight</h3>
+
+              <p>
+                  Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+              </p>
+
+              <p>
+Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful
+              </p>
+
+              <img src="assets/benchmarks.png" alt="Akira benchmarks." class="" width="100%"/>
+
+              <a href="#" class="anchor-link secondary-d-text">Learn more...</a>
+        </article>
+    </section>
 
     <!-- Contributors -->
+    <section id="contributors" class="content-wrapper">
+        <h2 class="title secondary-b-text">Contributors</h2>
+        
+        <article class="dev-card primary-f-text secondary-gradient-bg">
+            
+            <img src="assets/antidotejackPict.png" alt="AJ's picture" class="dev-picture"/>
+
+            <h4 class="dev-name">Developer's Name</h4>
+
+            <p>
+                A breaf description of the developer role, an other micelaneous that I can't come up with...
+            </p>
+
+            <footer>
+                <a href="#">
+                    <img src="assets/SiGithub.svg" alt="Github icon"/>
+                </a>
+
+                <a href="#">
+                    <img src="assets/email.svg" alt="Email icon"/>
+                </a>
+
+                <a href="#">
+                    <img src="assets/facebook.svg" alt="Facebook icon"/>
+                </a>
+            </footer>
+
+        </article>
+
+        <article class="dev-card primary-f-text secondary-gradient-bg">
+            
+            <img src="assets/antidotejackPict.png" alt="AJ's picture" class="dev-picture"/>
+
+            <h4 class="dev-name">Developer's Name</h4>
+
+            <p>
+                A breaf description of the developer role, an other micelaneous that I can't come up with...
+            </p>
+
+            <footer>
+                <a href="#">
+                    <img src="assets/SiGithub.svg" alt="Github icon"/>
+                </a>
+
+                <a href="#">
+                    <img src="assets/email.svg" alt="Email icon"/>
+                </a>
+
+                <a href="#">
+                    <img src="assets/facebook.svg" alt="Facebook icon"/>
+                </a>
+            </footer>
+
+        </article>
+
+    </section>
 
     <!-- Support us -->
 
     <!-- Footer -->
+    <footer class="content-wrapper secondary-gradient-bg primary-f-text">
+
+        <article id="donate">
+
+            <h4>Support us!</h4>
+
+            <img src="assets/akira-mascot-akari.png" alt="Mascot picture." width="100%"/>
+
+            <a href="#" class="btn"><img src="assets/librepayIcon.svg" alt="Libre pay Icon." width="100%"/></a>
+            
+            <p>
+                If you like Akira and you want to support its development, consider donating via <a href="#" class="anchor-link">Liberapay</a> or pledge on <a href="#" class="anchor-link">Patreon.</a>
+            </p>
+
+        </article>
+
+        <article id="copyrights">
+
+            <h5>License</h5>
+
+            <img src="assets/akira-logo.png" alt="Akira logo">
+
+            <a href="#" class="anchor-link">
+                GNU GPLv3 / Creative Commons BY-SA
+            </a>
+
+            <p>
+                Copyright © 2019-2020 Akira Project.
+            </p>
+
+        </article>
+    </footer>
 </body>
 </html>

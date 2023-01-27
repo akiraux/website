@@ -1,17 +1,152 @@
 @import "../node_modules/normalize.css/normalize.css";
+/* I don't know what is this line for but I keep it any ways.
+ * move the header to a separeted file.
+ */
 
-/* Header */
+/*
+ * GLOBAL
+*/
+:root{
+  --primary-color-f: #fffaee;
+  
+  --secondary-color-a: #161f29;
+  --secondary-color-b: #1d2b3b;
+  --secondary-color-c: #394655;
+  --secondary-color-d: #435062;
+  --secondary-color-e: #6b798c;
 
-.site-header {
-    background: rgb(48,48,48);
-    background: linear-gradient(45deg, rgba(48,48,48,1) 0%, rgba(77,77,77,1) 100%);
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    padding: 1em 3em;
+  --acent-color-a: #763600;
+  --acent-color-b: #a05900;
+  --acent-color-c: #c87a00;
+  --acent-color-d: #f49e00;
+  --acent-color-e: #fea607;
 }
 
-.site-navigation {
-    display: flex;
-    align-items: center;
+*{
+  font-family: inherit;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  fill: inherit;
+  text-decoration: none;
+  list-style: none;
+  font-size: .9rem;
+  scrollbar-width: thin;
+}
+*:focus-visible{
+    outline: 1px dashed var(--acent-color-e);
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-size: 1.7rem;
+  margin: .4rem 0;
+}
+/*
+ * GLOBAL
+*/
+
+
+/*
+ * COLORS
+*/
+.primary-f-bg{background: var(--primary-color-f);}
+.primary-f-text{color: var(--primary-color-f);}
+.primary-f-fill{fill: var(--primary-color-f);}
+
+.secondary-a-bg{background: var(--secondary-color-a);}
+.secondary-a-text{color: var(--secondary-color-a);}
+.secondary-a-fill{fill: var(--secondary-color-a);}
+
+.secondary-b-bg{background: var(--secondary-color-b);}
+.secondary-b-text{color: var(--secondary-color-b);}
+.secondary-b-fill{fill: var(--secondary-color-b);}
+
+.secondary-c-bg{background: var(--secondary-color-c);}
+.secondary-c-text{color: var(--secondary-color-c);}
+.secondary-c-fill{fill: var(--secondary-color-c);}
+
+.secondary-d-bg{background: var(--secondary-color-d);}
+.secondary-d-text{color: var(--secondary-color-d);}
+.secondary-d-fill{fill: var(--secondary-color-d);}
+
+.secondary-e-bg{background: var(--secondary-color-e);}
+.secondary-e-text{color: var(--secondary-color-e);}
+.secondary-e-fill{fill: var(--secondary-color-e);}
+
+.secondary-gradient-bg{
+    background-color: var(--secondary-color-b);
+    background-image: linear-gradient(45deg, var(--secondary-color-b), var(--secondary-color-c));
+}
+
+.acent-a-bg{background: var(--acent-color-a);}
+.acent-a-text{color: var(--acent-color-a);}
+.acent-a-fill{fill: var(--acent-color-a);}
+
+.acent-b-bg{background: var(--acent-color-b);}
+.acent-b-text{color: var(--acent-color-b);}
+.acent-b-fill{fill: var(--acent-color-b);}
+
+.acent-c-bg{background: var(--acent-color-c);}
+.acent-c-text{color: var(--acent-color-c);}
+.acent-c-fill{fill: var(--acent-color-c);}
+
+.acent-d-bg{background: var(--acent-color-d);}
+.acent-d-text{color: var(--acent-color-d);}
+.acent-d-fill{fill: var(--acent-color-d);}
+
+.acent-e-bg{background: var(--acent-color-e);}
+.acent-e-text{color: var(--acent-color-e);}
+.acent-e-fill{fill: var(--acent-color-e);}
+
+/*
+ * COLORS
+*/
+
+
+/* Anchor Links */
+.anchor-link{
+    font-style: italic;
+    padding: 0 1rem;
+    text-decoration-line: underline;
+}
+.anchor-link:hover, .anchor-link:focus-visible{
+    color: var(--acent-color-b);
+} 
+
+
+/* Butons */
+
+.btn{
+    display: block;
+    padding: .7rem 2rem;
+}
+
+.btn:hover, .btn:focus-visible{
+    text-decoration-line: underline;
+    opacity: .9;
+}
+
+/* Content Wrapper */
+
+.content-wrapper{
+    padding: 1rem;
+    max-width: 1500px;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    margin: 0 auto;
+}
+
+/* Setion Titles */
+.title{
+    font-size: 2.7rem;
+    margin: 3rem auto;
+}
+.subtitle{
+    font-size: 1.7rem;
+}
+
+section{
+    text-align: center;
 }

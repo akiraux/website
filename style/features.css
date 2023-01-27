@@ -1,0 +1,11 @@
+#features{
+    display: grid;
+}
+
+#features article{
+    margin: 5rem 0;
+}
+
+#features article p{
+    margin: 0 0 2rem 0;
+}

@@ -1,0 +1,41 @@
+#contributors{
+    display: grid;
+}
+
+#contributors h4{
+    text-decoration-line: underline;
+    margin: 1rem auto;
+}
+
+.dev-card{
+    margin: 5rem 0;
+    border-radius: 14px;
+    padding: 2rem 1rem;
+    background-image: url('../assets/watermark.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dev-card .dev-picture{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.dev-card p{
+    margin: 0 0 2rem 0;
+}
+
+.dev-card footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.dev-card footer img{
+    width: 2rem;
+    flex-basis: 2rem;
+}
+    
