@@ -1,0 +1,42 @@
+footer{
+    display: grid;
+    gap: 4rem;
+    text-align: center;
+}
+
+#donate, #copyrights{
+    display: grid;
+    gap: 1rem;
+}
+
+#donate{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        'title title title'
+        'mascot mascot lp'
+        'p p p'
+    ;
+    padding-top: 2rem;
+}
+
+#donate h4{ grid-area: title; }
+
+#donate > img{ 
+    grid-area: mascot; 
+}
+
+#donate .btn{ 
+    grid-area: lp; 
+    width: 120px;
+    margin: auto;
+}
+
+#donate p{ grid-area: p; }
+
+#copyrights{
+    padding-bottom: 2rem;
+}
+
+#copyrights img{
+    margin: auto;
+}
